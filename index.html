@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESCRIBANOS</title>
+    <meta name="keywords" content="escribanos, escribania, san martin"/>
+    <meta name="description" content="página de escribanos en zona este de Mendoza" />
+    <meta name="author" content="ESCRIBANOS" />
+    <link rel="icon" type="image/x-icon"  href="img/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="loading">
+    <div id="wrapper">
+
+        <div id="bg"></div>
+        <div id="overlay"></div>
+
+        <main>
+            <header>
+                <img src="img/pen.png" class="responsive" alt="lapicera firma">                
+                <h1>Apellido1 &nbsp;&bull;&nbsp; Apellido2</h1>
+                <h2>ESCRIBANOS</h2>
+                <nav>
+                    <ul>
+						<li>
+                            <a href="horario.html" class="icon fa-calendar" title="Horarios">
+                                <span class="label">Horarios</span>
+                            </a>
+                        </li>
+						<li>
+                            <a href="ubicacion.html" class="icon fa-solid fa-location-arrow" title="Ubicación">
+                                <span class="label">Ubicación</span>
+                            </a>
+                        </li>
+						<li>
+                            <a href="contacto.html" class="icon fa-envelope-o" title="Consultas">
+                                <span class="label">Consultas</span>
+                            </a>
+                        </li>
+					</ul>
+                </nav>
+            </header>
+            <footer>
+                <span class="copyright">&copy; 
+					Mica Grilli
+				</span>
+            </footer>
+        </main>
+    </div>  
+    
+    <script>
+        window.onload = function() { document.body.className = ''; }
+        window.ontouchmove = function() { return false; }
+        window.onorientationchange = function() { document.body.scrollTop = 0; }
+    </script>
+
+</body>
+
+</html>
